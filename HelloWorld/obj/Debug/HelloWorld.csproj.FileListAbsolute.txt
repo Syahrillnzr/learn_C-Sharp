@@ -5,3 +5,10 @@ C:\Users\i.syahrill\source\repos\HelloWorld\HelloWorld\obj\Debug\HelloWorld.cspr
 C:\Users\i.syahrill\source\repos\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
 C:\Users\i.syahrill\source\repos\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
 C:\Users\i.syahrill\source\repos\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+D:\code_remote\learn_C#\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\code_remote\learn_C#\HelloWorld\bin\Debug\HelloWorld.exe
+D:\code_remote\learn_C#\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\code_remote\learn_C#\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+D:\code_remote\learn_C#\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\code_remote\learn_C#\HelloWorld\obj\Debug\HelloWorld.exe
+D:\code_remote\learn_C#\HelloWorld\obj\Debug\HelloWorld.pdb

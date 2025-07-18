@@ -36,6 +36,7 @@ namespace HelloWorld
             Console.Write(name + " is " + myNum2 + " years old.");
             Console.WriteLine(" ");
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
             // Type Casting
 
@@ -45,6 +46,7 @@ namespace HelloWorld
             Console.WriteLine(myNombor);
             Console.WriteLine(myDoubleNombor);
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
 
             // Explict Casting
@@ -55,6 +57,7 @@ namespace HelloWorld
             Console.WriteLine(myDouble);
             Console.WriteLine(myInt);
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
             // Type conversion
 
@@ -69,6 +72,7 @@ namespace HelloWorld
             Console.WriteLine(Convert.ToInt32(myDoubleSpecial));
             Console.WriteLine(Convert.ToString(myBoolHa));
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
             // user Input
             Console.WriteLine(" This is User C# Input Tutorial ");
@@ -87,6 +91,7 @@ namespace HelloWorld
             int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Your age is: " + age + " years old older and wiser...");
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
             //Operator
 
@@ -108,6 +113,7 @@ namespace HelloWorld
             xy++;
             Console.WriteLine(xy);
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
             // b) Assignment
 
@@ -123,6 +129,7 @@ namespace HelloWorld
             xc += 1;
             Console.WriteLine(xc);
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
 
             // c) Comparison
@@ -140,6 +147,7 @@ namespace HelloWorld
             Console.WriteLine(y >= z);
             Console.WriteLine(y <= z);
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
             // d) Logical
 
@@ -151,6 +159,7 @@ namespace HelloWorld
             Console.WriteLine(cv > 3 || cv < 10);
             Console.WriteLine(!(cv > 3 && cv < 10));
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
 
             // C# Math
@@ -164,9 +173,11 @@ namespace HelloWorld
             Console.WriteLine(Math.Abs(-47));
             Console.WriteLine(Math.Round(9.90));
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
+            // C# String
 
-            // C# Strings
+            // a) Strings
 
             Console.WriteLine("This is C# Strings");
             Console.WriteLine(" ");
@@ -183,7 +194,7 @@ namespace HelloWorld
             Console.WriteLine(" ");
 
 
-            // C# String Concatenation
+            // b) Concatenation
 
             Console.WriteLine(" This is C# String Concatenation");
             Console.WriteLine(" ");
@@ -206,9 +217,10 @@ namespace HelloWorld
             string m = b + c;
             Console.WriteLine(m);
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
 
-            // C# String Interpolation
+            // d) Interpolation
 
             Console.WriteLine(" This is C# String Interpolation");
             Console.WriteLine(" ");
@@ -218,8 +230,9 @@ namespace HelloWorld
             string namee = $"My full name is: {firname} {lasname}";
             Console.WriteLine(namee);
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
-            // C# Access Strings
+            // e) Access Strings
 
             Console.WriteLine(" this is C# Access Strings");
             Console.WriteLine(" ");
@@ -229,8 +242,9 @@ namespace HelloWorld
             Console.WriteLine(greet.IndexOf("e")); // output 1
             Console.WriteLine(greet.Substring(1)); // output ello
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
-            // C# Special Characters
+            // f) Special Characters
             Console.WriteLine(" This is C# Special Characters");
             Console.WriteLine(" ");
 
@@ -241,7 +255,69 @@ namespace HelloWorld
             Console.WriteLine(viki1);
             Console.WriteLine(viki2);
             Console.WriteLine("========================");
+            Console.WriteLine(" ");
 
+            // C# Booleans
+            Console.WriteLine(" This is C# Booleans");
+            Console.WriteLine(" ");
+
+            bool isCsharpIsFun = true;
+            bool isWoodisTasty = false;
+
+            Console.WriteLine(isCsharpIsFun);
+            Console.WriteLine(isWoodisTasty);
+
+            Console.WriteLine(10 > 9);
+
+            int yi = 19;
+            Console.WriteLine(yi == 18);
+
+            int myAge = 28;
+            int voteAge = 18;
+
+            Console.WriteLine("Can you vote: " + (myAge >= voteAge));
+
+            // test understanding - Vote Age check
+
+            int VoteAgeReq = 18;
+            Console.Write("Please enter your age to check req for voting: ");
+
+            int ageToVote = Convert.ToInt32(Console.ReadLine());
+
+            if (ageToVote >= VoteAgeReq)
+                Console.WriteLine("Your can vote.Plzz vote");
+            else
+                Console.WriteLine("Your cant vote.Plzz try again next year");
+
+            // test understanding - Vote Age check end
+
+            Console.WriteLine("========================");
+            Console.WriteLine(" ");
+
+
+            // C# if...else if...else
+
+            Console.WriteLine(" This is C# if...else if...else");
+            Console.WriteLine(" ");
+
+            int time = 22;
+
+            if (time < 20)
+                Console.WriteLine("Good Morning");
+            else if (time < 22)
+                Console.WriteLine("Good Evening");
+            else
+                Console.WriteLine("Good Night");
+
+            Console.WriteLine("========================");
+            Console.WriteLine(" ");
+
+            // Short C# if...else
+
+            int timee = 20;
+            string result = (timee < 18) ? "Good day." : "Good evening.";
+            Console.WriteLine(result);
         }
     }
+
 }
