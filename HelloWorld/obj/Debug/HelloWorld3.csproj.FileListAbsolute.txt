@@ -1,0 +1,7 @@
+D:\code_remote\learn_C#\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\code_remote\learn_C#\HelloWorld\bin\Debug\HelloWorld.exe
+D:\code_remote\learn_C#\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\code_remote\learn_C#\HelloWorld\obj\Debug\HelloWorld3.csproj.AssemblyReference.cache
+D:\code_remote\learn_C#\HelloWorld\obj\Debug\HelloWorld3.csproj.CoreCompileInputs.cache
+D:\code_remote\learn_C#\HelloWorld\obj\Debug\HelloWorld.exe
+D:\code_remote\learn_C#\HelloWorld\obj\Debug\HelloWorld.pdb
